@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Highfive Desktop Streamer",
   "description": "A simple extension that allows you to stream your desktop into meetings with Highfive.",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "minimum_chrome_version": "34",
   "icons": {
     "16": "hf_16x16.png",
@@ -18,7 +18,10 @@
   ],
   "externally_connectable": {
       "matches": [
-          "*://*.highfive.video/*"
+          "*://*.highfive.video/*",
+          "*://*.highfive.com/*",
+          "*://*.fatline.io/*",
+          "*://*.highfive-staging.com/*"
       ]
   }
 }
